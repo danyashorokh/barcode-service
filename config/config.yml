@@ -1,0 +1,9 @@
+services:
+  barcode_recognition:
+    detection:
+      model_path: 'weights/model_detection.pt'
+      img_size: 1280
+      conf_threshold: 0.5
+    ocr:
+      model_path: 'weights/model_ocr.zip'
+    device: ${oc.env:POSTER_DEVICE,'cpu'}

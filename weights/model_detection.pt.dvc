@@ -1,0 +1,4 @@
+outs:
+- md5: 65bb504be56606967f1a45fe6feaaa30
+  size: 6920533
+  path: model_detection.pt
