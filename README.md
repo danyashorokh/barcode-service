@@ -9,8 +9,6 @@ Barcodes detection and text recognition.
 The API is implemented on the HTTP protocol with the transfer of information in JSON format to
 based on REST principles.
 
-Read documentation [91.206.15.25:1024/docs](91.206.15.25:1024/docs) 
-
 ## Requests examples
 
 #### 1. Barcode image recognition
